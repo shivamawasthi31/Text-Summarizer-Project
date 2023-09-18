@@ -7,7 +7,7 @@ UserName = "shivamawasthi31"
 RepoName = "Text-Summerization-Project"
 
 setuptools.setup(
-    name="textSummerizer",
+    name="text_Summarizer",
     version="0.0.0",
     author="Shivam Awasthi",
     author_email="31.shivam.awasthi@gmail.com",
