@@ -7,7 +7,7 @@ UserName = "shivamawasthi31"
 RepoName = "Text-Summerization-Project"
 
 setuptools.setup(
-    name="text_Summarizer",
+    name="textSummarizer",
     version="0.0.0",
     author="Shivam Awasthi",
     author_email="31.shivam.awasthi@gmail.com",
@@ -15,7 +15,11 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url=f"https://github.com/{UserName}/{RepoName}",
-    packages=setuptools.find_packages(),
+    package_dir={"":"src"},
+    packages=setuptools.find_packages(where="src"),
+    project_urls={
+      "Bug Tracker": f"https://github.com/{UserName}/{RepoName}/issues"
+    },
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
