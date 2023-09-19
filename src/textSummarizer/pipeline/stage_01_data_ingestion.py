@@ -3,7 +3,7 @@ from textSummarizer.config.configuration import ConfigurationManager
 from textSummarizer.logging import logger
 
 
-class DataIngestionTrainingPipeline:
+class DataIngestionPipeline:
     def __init__(self) -> None:
         pass
     
