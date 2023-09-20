@@ -15,7 +15,4 @@
 ## How to run ?
 
 ### STEPS:
-Clone the repository
-
-
-URI ECR: 373358813411.dkr.ecr.ap-south-1.amazonaws.com/text-summarization
+Clone the repository... to be completed
