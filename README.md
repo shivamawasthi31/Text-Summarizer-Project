@@ -11,3 +11,11 @@
 6. Update pipeline
 7. Update main.py
 8. Update app.py
+
+## How to run ?
+
+### STEPS:
+Clone the repository
+
+
+URI ECR: 373358813411.dkr.ecr.ap-south-1.amazonaws.com/text-summarization
